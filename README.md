@@ -9,6 +9,24 @@ A personal library of Claude skill files. Browse the catalog below to find skill
 ## 📖 Skills Catalog
 
 <!-- CATALOG_START -->
+### 🗂️ Admin
+
+| Skill | Description | Relevant Roles | Owner |
+|-------|-------------|---------------|-------|
+| [admin-generate-ado-description](./skills/admin/admin-generate-ado-description.md) | Generates a structured, Markdown-formatted Azure DevOps (ADO) work item description for design tasks — ready to paste directly into a work item. Use whenever the user wants to write an ADO description, document a design task for a sprint, or turn a brief summary into a formatted work item. Triggers on: "generate an ADO description", "write a work item for", "create an ADO task for", "document this design task", "write up this sprint item". | #design #product | @MaryCampoTR |
+| [admin-generate-meeting-invite](./skills/admin/admin-generate-meeting-invite.md) | Generates structured meeting invite content (description, agenda, and goals) ready to paste directly into a calendar invite or meeting request. Use whenever the user wants to write a meeting invite, draft a calendar event description, or turn rough meeting context into polished invite copy. Triggers on: "generate a meeting invite", "write an invite for", "help me set up a meeting", "draft a calendar invite", "create a meeting request". | #design #product #engineering #strategy | @MaryCampoTR |
+| [admin-post-meeting-recap](./skills/admin/admin-post-meeting-recap.md) | Generates a ready-to-send Teams post-meeting recap with a summary, prioritised next steps with tagged owners, and a confirmation prompt. Use whenever the user wants to write a meeting recap, send a follow-up summary, or document meeting outcomes. Triggers on: "write a recap for", "summarise the meeting", "post-meeting summary", "send a follow-up for", "document the outcomes", "write up what we decided". | #design #product #engineering #strategy | @MaryCampoTR |
+| [admin-pre-meeting-prep](./skills/admin/admin-pre-meeting-prep.md) | Generates a structured pre-meeting prep pack including research context, delegation opportunities with ready-to-send Teams messages, strategic questions, and facilitation notes. Use whenever the user wants to prepare for an upcoming meeting, build context before a stakeholder session, or plan how to navigate a difficult meeting. Triggers on: "help me prep for", "I have a meeting about", "prepare me for", "what should I know before", "pre-meeting prep", "how should I approach this meeting". | #design #product #strategy | @MaryCampoTR |
+| [admin-presentation-intro-framework](./skills/admin/admin-presentation-intro-framework.md) | Generates a meeting opening script and time-blocked agenda framework for professional presentations. Use whenever the user wants to prepare a talk track, draft an opening script, or structure how they'll run a session. Triggers on: "help me open this meeting", "write my intro for", "structure my presentation", "create a talk track", "draft my opening", or any time the user provides meeting context and wants to deliver it confidently. | #design #product #strategy | @MaryCampoTR |
+| [admin-refine-response](./skills/admin/admin-refine-response.md) | Refines and polishes Teams messages for professional communication. Use whenever the user wants to write, draft, improve, or respond to a Microsoft Teams message. Triggers on: "refine this message", "help me respond to this", "write a Teams message", "polish this", "make this more professional", or any time the user shares a rough draft or a received message and wants help crafting a response. | #design #product #engineering #strategy | @MaryCampoTR |
+
+### 🖥️ UX
+
+| Skill | Description | Relevant Roles | Owner |
+|-------|-------------|---------------|-------|
+| [ux-agentic-ai-prototype-review](./skills/ux/ux-agentic-ai-prototype-review.md) | Reviews and fixes HTML prototype code for agentic AI interfaces, producing improved copy-paste ready code and a prioritised change report. Use whenever the user shares HTML and wants a review, audit, or improvement pass — especially for AI-powered interfaces or pre-demo polish. Triggers on: "review this HTML", "fix my prototype", "audit this code", "clean this up before the demo", "check this for accessibility", "polish this component". | #design #engineering | @MaryCampoTR |
+| [ux-generate-design-requirements](./skills/ux/ux-generate-design-requirements.md) | Accepts any mix of UX reference materials — transcripts, emails, screenshots, Figma exports, ADO work items, notes — and synthesizes them into a structured, actionable set of UX/design requirements. Use whenever the user wants to generate design requirements or turn raw inputs into a spec. Triggers on: "generate requirements from", "synthesize these references", "turn this into requirements", "create a spec from", "here are my inputs", or any time the user provides mixed materials and wants design requirements as output. | #design #product | @MaryCampoTR |
+
 ### 🎨 Design
 
 | Skill | Description | Relevant Roles | Owner |
@@ -31,6 +49,12 @@ A personal library of Claude skill files. Browse the catalog below to find skill
 | [ux-requirements-synthesizer](./skills/requirements/ux-requirements-synthesizer.md) | Transform piecemeal UX inputs (meeting transcripts, half-baked user stories, design artifacts) into complete, v0-ready requirement specs. Use when given any raw product/UX input and asked to produce a structured spec, prototype brief, or v0 prompt. Includes a full output schema, v0 prompt template, ambiguity resolution rules, and a pre-delivery checklist. |  | — |
 | [v0-prompt-patterns](./skills/requirements/v0-prompt-patterns.md) | A pattern library of proven v0 prompt structures for common screen archetypes. Use when writing the v0 prompt section of a requirements spec, or when asked to produce a v0 prompt directly. Covers: form page, data table, dashboard, detail panel, empty/error states, modal flows, and navigation shells. Compose from patterns rather than writing from scratch every time. |  | — |
 | [v0-refinement](./skills/requirements/v0-refinement.md) | Diagnose v0 prototype output that missed the mark and produce targeted refinement prompts. Use when v0 has generated a prototype that is incomplete, inaccurate, or mishandled complex interactions — and you need to fix it without starting over. Covers: gap diagnosis, root cause identification, surgical follow-up prompt writing, multi-screen flow composition, and complex interaction patterns v0 commonly mishandles. |  | — |
+
+### 📝 Content
+
+| Skill | Description | Relevant Roles | Owner |
+|-------|-------------|---------------|-------|
+| [case-study](./skills/content/case-study.md) | Use this skill whenever a user wants to create a UX or design case study document. Triggers include: mentions of 'case study', 'design case study', 'UX case study', 'portfolio case study', requests to document a design initiative, project outcome, or design process for stakeholders or leadership review. Also trigger when a user mentions sections like 'the challenge', 'the solution', 'the outcome', 'design impact', or wants to write up a project for a portfolio or management review. |  | — |
 
 <!-- CATALOG_END -->
 

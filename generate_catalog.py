@@ -16,9 +16,14 @@ import yaml
 SKILLS_DIR = "skills"
 README_PATH = "README.md"
 
-CATEGORY_ORDER = ["design", "requirements", "brand"]
+CATEGORY_ORDER = ["admin", "ux", "design", "requirements", "content"]
 CATEGORY_LABELS = {
+    "admin":        "🗂️ Admin",
+    "ux":           "🖥️ UX",
+    "admin":        "🗂️ Admin",
+    "ux":           "🖥️ UX",
     "design":       "🎨 Design",
+    "content":      "📝 Content",
     "requirements": "📋 Requirements",
     "brand":        "🏢 Brand",
 }
