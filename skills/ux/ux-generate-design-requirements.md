@@ -11,7 +11,7 @@ description: >
 version: 1.0.0
 updated: 2026-04-13
 relevant_roles: [design, product]
-owner: "@MaryCampoTR"
+owner: "@maryeliz-design"
 ---
 
 # SKILL: UX > Generate Design Requirements

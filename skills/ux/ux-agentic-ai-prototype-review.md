@@ -10,7 +10,7 @@ description: >
 version: 1.0.0
 updated: 2026-04-13
 relevant_roles: [design, engineering]
-owner: "@MaryCampoTR"
+owner: "@maryeliz-design"
 ---
 
 # SKILL: UX > Agentic AI — Prototype Review & Fix
